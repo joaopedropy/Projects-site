@@ -14,7 +14,7 @@ body{
 header{
     z-index: 99;
     margin: 5px;
-    width: 100%;
+    width: 100vw;
     aspect-ratio: 12/1;
     padding: 25px;
     color: azure;
@@ -24,7 +24,9 @@ header{
     display: flex;
     border-radius: 15px;
     background-color: rgb(45, 0, 86);
-    position: fixed;}
+    position: fixed;
+    margin-right: 65px;    
+}
 
 header h1{
     font-size: calc( 12px + (24 - 16) * (100vw - 400px) / (800 - 400) );
@@ -55,7 +57,7 @@ header a:hover{
 
 main{
     top: 120px;
-    width: 100vw;
+    width: auto;
     height: 100vh;
     position: relative;
     left: 0px;
