@@ -14,7 +14,7 @@ body{
 header{
     z-index: 99;
     margin: 5px;
-    width: 96.5vw;
+    width: calc(100vw - 5px);
     aspect-ratio: 12/1;
     padding: 25px;
     color: azure;
@@ -25,7 +25,8 @@ header{
     border-radius: 15px;
     background-color: rgb(45, 0, 86);
     position: fixed;
-    margin-right: 65px;    
+    margin-right: 65px;
+    max-height: 90px;    
 }
 
 header h1{
